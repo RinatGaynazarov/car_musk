@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Header{
+    padding: 40px 112px 0 40px;
+    height: 100vh;
+} 
+.header-row{
+    display: flex;
+    column-gap: 40;
+    align-items: center;
+    justify-content:  space-between;
+}
+.header-logo{
+    
+    display: flex;
+    align-items: center;
+    column-gap: 13px;
+}
+.header-logo span{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #fff;
+}
+.header-nav{
+    padding-left: 112px;
+}
+.header-nav ul{
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+}
+.header-nav a{
+    color: #fff;
+    width: 44px;
+    height: 29px;
+    gap: 0px;
+    opacity: 0px;
+}
+.header-car{
+    color:#DB3138;
+    font-size: 70px;
+    font-weight: 650;
+    text-align: center;
+    margin-top: 137px;
+}
+.point{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color:#DB3138;
+    font-size: 70px;
+    font-weight: 650;
+    margin-top: 0px;
+    height: 60px;
+}
+.point p{
+    transform: rotate(43deg);
+    margin-top: -40px
+}
+.header-title{
+    display: flex;
+    justify-content: center;
+}   
+.header-title p{
+   color: #fff;
+   width: 437px;
+   height: 96px;
+   top: 486px;
+   left: 742px;
+   gap: 0px;
+   opacity: 0px;
+
+}
+.header-btn{
+    left: 480px;
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;  
+    font-weight: bold;
+    border: 2px solid #0c0b0c;
+    background: #000;
+    color: #fff ;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.header-btn:hover{
+    color: #DB3138;
+    background: transparent;
+    box-shadow: none;
+
+}
